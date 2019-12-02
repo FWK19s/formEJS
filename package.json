@@ -1,0 +1,23 @@
+{
+  "name": "formejs",
+  "version": "1.0.0",
+  "description": "Registration form with nodejs, express and ejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "ejs",
+    "vanillajS",
+    "css",
+    "html"
+  ],
+  "author": "Oscar",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}

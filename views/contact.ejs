@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About-us</title>
+        <link rel="stylesheet" href="/static/css/contact.css">
+        <script src="/static/js/script.js"></script>
+        <link rel="stylesheet" href="/static/css/nav.css">
+    </head>
+    <body>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li style="float:right"><a href="signup">SignUp</a></li>
+                    <li style="float:right"><a href="login">LogIn</a></li>
+                </ul> 
+            </nav>
+        </section>
+        <section class="story-section company-sections ct-u-paddingBoth100 paddingBothHalf noTopMobilePadding" id="section">
+            <div class="container text-center">
+                    <div class="container">
+                      <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                          <option value="australia">Australia</option>
+                          <option value="canada">Canada</option>
+                          <option value="usa">USA</option>
+                        </select>
+                    
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Submit">
+                      </form>
+                    </div>
+            </div>
+        </section>
+    </body>
+</html>
